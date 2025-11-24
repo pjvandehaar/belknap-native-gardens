@@ -4,8 +4,8 @@ const plants = [
         scientificName: "Heuchera americana",
         height: "1-3 ft",
         gallery: [
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/other/heuchera-richardsonii-prairie-alumroot_0608_132544.jpg",
-            "https://gnps.org/wp-content/uploads/bfi_thumb/Heuchera-americana-qx0fprr5ue99jnbbb4i9lbl460lv17b85v3v7c1ssg.jpg",
+            './assets/alum-root-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/other/heuchera-richardsonii-prairie-alumroot_0608_132544.jpg
+            './assets/alum-root-2.jpg', // https://gnps.org/wp-content/uploads/bfi_thumb/Heuchera-americana-qx0fprr5ue99jnbbb4i9lbl460lv17b85v3v7c1ssg.jpg
         ]
     },
     {
@@ -14,8 +14,8 @@ const plants = [
         otherNames: ["Horsemint", "Spotted Bee Balm"],
         height: "2-4 ft",
         gallery: [
-            "https://www.canr.msu.edu/contentAsset/image/5911e9fa-b006-4ae3-9cd8-9ba7bb9012a0/fileAsset/filter/Resize/resize_w/1200",
-            "https://www.canr.msu.edu/contentAsset/image/008083be-419c-4dd7-8ae1-c2aba5c6c407/fileAsset/filter/Resize/resize_w/1200",
+            './assets/bee-balm-1.jpg', // https://www.canr.msu.edu/contentAsset/image/5911e9fa-b006-4ae3-9cd8-9ba7bb9012a0/fileAsset/filter/Resize/resize_w/1200
+            './assets/bee-balm-2.jpg', // https://www.canr.msu.edu/contentAsset/image/008083be-419c-4dd7-8ae1-c2aba5c6c407/fileAsset/filter/Resize/resize_w/1200
         ]
     },
     {
@@ -24,8 +24,8 @@ const plants = [
         otherNames: ['Plains Oval Sedge', 'Praire Sedge', 'Shortbeak Sedge'],
         height: "1-3 ft",
         gallery: [
-            'https://hoffmannursery.com/assets/files/images/carex-brevior-01.jpg',
-            'https://cdn-kocjb.nitrocdn.com/jCEhjcPcDPgQTAaGxXvYrXpsMJocXVFM/assets/images/optimized/rev-756df5b/kb.jniplants.com/wp-content/uploads/2023/01/plains-oval-sedge-carex-brevior-ftimg.jpg',
+            './assets/carex-brevior-1.jpg', // https://hoffmannursery.com/assets/files/images/carex-brevior-01.jpg
+            './assets/carex-brevior-2.jpg', // https://cdn-kocjb.nitrocdn.com/jCEhjcPcDPgQTAaGxXvYrXpsMJocXVFM/assets/images/optimized/rev-756df5b/kb.jniplants.com/wp-content/uploads/2023/01/plains-oval-sedge-carex-brevior-ftimg.jpg
         ]
     },
     {
@@ -34,12 +34,11 @@ const plants = [
         otherNames: ['Bur-reed Sedge'],
         height: "1-3 ft",
         gallery: [
-            'http://www.thismia.com/C/Carex_sparganioides1.jpg',
-            'https://ornamentalgrass.ca/images/carex-sparganioides.jpg',
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/carex-sparganioides-0624-8.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/carex-sparganioides_0609_160832.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/carex-sparganioides-6-16-1.jpg",
-
+            './assets/carex-sparganoides-1.jpg', // http://www.thismia.com/C/Carex_sparganioides1.jpg
+            './assets/carex-sparganoides-2.jpg', // https://ornamentalgrass.ca/images/carex-sparganioides.jpg
+            './assets/carex-sparganoides-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/carex-sparganioides-0624-8.jpg
+            './assets/carex-sparganoides-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/carex-sparganioides_0609_160832.jpg
+            './assets/carex-sparganoides-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/carex-sparganioides-6-16-1.jpg
         ],
         links: ["https://www.minnesotawildflowers.info/grass-sedge-rush/bur-reed-sedge", "https://en.wikipedia.org/wiki/Carex_sparganioides"]
     },
@@ -49,11 +48,11 @@ const plants = [
         otherNames: ['Sand Coreopsis'],
         height: "1-2 ft",
         gallery: [
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165358.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165211.jpg",
-            "https://www.canr.msu.edu/contentAsset/image/07c593cb-1fd7-429a-8574-30daebd3aefe/fileAsset/filter/Resize/resize_w/1200",
-            "https://www.canr.msu.edu/contentAsset/image/a1d89ddb-f7a9-4c04-90aa-62c25c9d2260/fileAsset/filter/Resize/resize_w/1200",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165259.jpg",
+            './assets/lance-leaf-coreopsis-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165358.jpg
+            './assets/lance-leaf-coreopsis-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165211.jpg
+            './assets/lance-leaf-coreopsis-3.jpg', // https://www.canr.msu.edu/contentAsset/image/07c593cb-1fd7-429a-8574-30daebd3aefe/fileAsset/filter/Resize/resize_w/1200
+            './assets/lance-leaf-coreopsis-4.jpg', // https://www.canr.msu.edu/contentAsset/image/a1d89ddb-f7a9-4c04-90aa-62c25c9d2260/fileAsset/filter/Resize/resize_w/1200
+            './assets/lance-leaf-coreopsis-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165259.jpg
         ]
     },
     {
@@ -61,8 +60,8 @@ const plants = [
         scientificName: "Amorpha canescens",
         height: "2-3 ft",
         gallery: [
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/lead-plant_0701_101513.jpg",
-            "https://www.applewoodseed.com/wp-content/uploads/2016/11/AMCA-1301.jpg"
+            './assets/lead-plant-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/lead-plant_0701_101513.jpg
+            './assets/lead-plant-2.jpg', // https://www.applewoodseed.com/wp-content/uploads/2016/11/AMCA-1301.jpg
         ]
     },
     {
@@ -70,12 +69,12 @@ const plants = [
         scientificName: "Symphyotrichum novae-angliae",
         height: "3-6 ft",
         gallery: [
-            "https://mainenativeplants.org/wp-content/uploads/2020/04/New-England-Aster-Symphyotrichum-novae-angliae.png",
-            "https://www.canr.msu.edu/contentAsset/image/d5b7d646-3ad0-44f6-a192-3e8f1b174592/fileAsset/filter/Resize/resize_w/1200",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/new-england-aster-100_5155.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/new-england-aster-100_5152.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/symphyotrichum-novae-angliae-new-england-aster_0920_112404.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/symphyotrichum-novae-angliae-new-england-aster_0904_140443.jpg",
+            './assets/new-england-aster-1.png', // https://mainenativeplants.org/wp-content/uploads/2020/04/New-England-Aster-Symphyotrichum-novae-angliae.png
+            './assets/new-england-aster-2.jpg', // https://www.canr.msu.edu/contentAsset/image/d5b7d646-3ad0-44f6-a192-3e8f1b174592/fileAsset/filter/Resize/resize_w/1200
+            './assets/new-england-aster-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/new-england-aster-100_5155.jpg
+            './assets/new-england-aster-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/new-england-aster-100_5152.jpg
+            './assets/new-england-aster-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/symphyotrichum-novae-angliae-new-england-aster_0920_112404.jpg
+            './assets/new-england-aster-6.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/symphyotrichum-novae-angliae-new-england-aster_0904_140443.jpg
         ],
         links: ['https://www.canr.msu.edu/nativeplants/plant_facts/new_england_aster', 'https://www.minnesotawildflowers.info/flower/new-england-aster'],
     },
@@ -84,11 +83,11 @@ const plants = [
         scientificName: "Eragrostis spectabilis",
         height: "1-2 ft",
         gallery: [
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_103712.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_114001.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/eragrostis-spectabilis-15-4.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_103945.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_103808.jpg",
+            './assets/purple-love-grass-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_103712.jpg
+            './assets/purple-love-grass-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_114001.jpg
+            './assets/purple-love-grass-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/eragrostis-spectabilis-15-4.jpg
+            './assets/purple-love-grass-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_103945.jpg
+            './assets/purple-love-grass-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/grass/eragrostis-spectabilis_0724_103808.jpg
         ]
     },
     {
@@ -96,11 +95,11 @@ const plants = [
         scientificName: "Liatris aspera",
         height: "3-5 ft",
         gallery: [
-            "https://www.canr.msu.edu/contentAsset/image/80bcf670-e8de-4c17-8716-e69cc6afd224/fileAsset/filter/Resize/resize_w/1200",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star-0728_085557.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star_1101_142454.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star_0822_103728.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star-100_3756.jpg",
+            './assets/rough-blazing-star-1.jpg', // https://www.canr.msu.edu/contentAsset/image/80bcf670-e8de-4c17-8716-e69cc6afd224/fileAsset/filter/Resize/resize_w/1200
+            './assets/rough-blazing-star-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star-0728_085557.jpg
+            './assets/rough-blazing-star-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star_1101_142454.jpg
+            './assets/rough-blazing-star-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star_0822_103728.jpg
+            './assets/rough-blazing-star-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star-100_3756.jpg
         ],
         links: ['https://www.canr.msu.edu/nativeplants/plant_facts/rough_blazing_star', 'https://www.minnesotawildflowers.info/flower/rough-blazing-star']
     },
@@ -109,12 +108,11 @@ const plants = [
         scientificName: "Hypericum punctatum",
         height: "2-4 ft",
         gallery: [
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-988-6.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-798-2.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-84393-22.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-489238.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-7981.jpg',
-
+            './assets/shrubby-st-john-s-wort-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-988-6.jpg
+            './assets/shrubby-st-john-s-wort-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-798-2.jpg
+            './assets/shrubby-st-john-s-wort-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-84393-22.jpg
+            './assets/shrubby-st-john-s-wort-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-489238.jpg
+            './assets/shrubby-st-john-s-wort-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/hypericum-punctatum-7981.jpg
         ],
         links: ['https://www.minnesotawildflowers.info/flower/spotted-st.-johns-wort'],
     },
@@ -123,7 +121,7 @@ const plants = [
         scientificName: "Asclepias incarnata",
         height: "3-5 ft",
         gallery: [
-            "https://www.selectseeds.com/cdn/shop/products/014-2-1000_1000x1000.jpg?v=1687464393",
+            './assets/swamp-milkweed-1.jpg', // https://www.selectseeds.com/cdn/shop/products/014-2-1000_1000x1000.jpg?v=1687464393
         ]
     },
     {
@@ -132,11 +130,11 @@ const plants = [
         otherNames: ['Purple Threeawn'],
         height: "1-2 ft",
         gallery: [
-            "https://plant-material.com/cdn/shop/products/IMG_5884-min.jpg?v=1664974811",
-            "https://plant-material.com/cdn/shop/products/IMG_5883-min.jpg?v=1664974813",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/aristida-purpurea-091416-1.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/aristida-purpurea-091416-7.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/aristida-purpurea-151-1.jpg",
+            './assets/three-awned-grass-1.jpg', // https://plant-material.com/cdn/shop/products/IMG_5884-min.jpg?v=1664974811
+            './assets/three-awned-grass-2.jpg', // https://plant-material.com/cdn/shop/products/IMG_5883-min.jpg?v=1664974813
+            './assets/three-awned-grass-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/aristida-purpurea-091416-1.jpg
+            './assets/three-awned-grass-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/aristida-purpurea-091416-7.jpg
+            './assets/three-awned-grass-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd3/aristida-purpurea-151-1.jpg
         ],
         links: [
             "https://www.minnesotawildflowers.info/grass-sedge-rush/purple-three-awn",
@@ -147,11 +145,11 @@ const plants = [
         scientificName: "Pycnanthemum virginianum",
         height: "2-3 ft",
         gallery: [
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_0720_112738.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_1018_155321.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_0528_135856.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_0528_135839.jpg',
-            'https://www.minnesotawildflowers.info/udata/r9ndp23q/white/virginia-mountain-mint_0919_173419.jpg',
+            './assets/virginia-mountain-mint-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_0720_112738.jpg
+            './assets/virginia-mountain-mint-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_1018_155321.jpg
+            './assets/virginia-mountain-mint-3.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_0528_135856.jpg
+            './assets/virginia-mountain-mint-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/white/pycnanthemum-virginianum-virginia-mountain-mint_0528_135839.jpg
+            './assets/virginia-mountain-mint-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/white/virginia-mountain-mint_0919_173419.jpg
         ],
         links: ['https://www.minnesotawildflowers.info/flower/virginia-mountain-mint'],
     },
@@ -161,15 +159,14 @@ const plants = [
         otherNames: ['Red Columbine'],
         height: "1-3 ft",
         gallery: [
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/red/red-columbine-100_5130.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/aquilegia-canadensis-28.jpg",
-            "https://images.squarespace-cdn.com/content/v1/65e9f518f091b23d734eebe2/96cd511b-6938-49cc-b65d-52a714d4fded/WSP_aquilegia+canadensis_+columbine_+red+columbine__WildSeedProject_%C2%A9+Heather+McCargo-25-smartpreview.jpg?format=2500w",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/red/red-columbine-100_5792.jpg",
-            "https://www.minnesotawildflowers.info/udata/r9ndp23q/red/aquilegia-canadensis-red-columbine_0423_130045.jpg",
+            './assets/wild-columbine-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/red/red-columbine-100_5130.jpg
+            './assets/wild-columbine-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/pd/aquilegia-canadensis-28.jpg
+            './assets/wild-columbine-3.jpg', // https://images.squarespace-cdn.com/content/v1/65e9f518f091b23d734eebe2/96cd511b-6938-49cc-b65d-52a714d4fded/WSP_aquilegia+canadensis_+columbine_+red+columbine__WildSeedProject_%C2%A9+Heather+McCargo-25-smartpreview.jpg?format=2500w
+            './assets/wild-columbine-4.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/red/red-columbine-100_5792.jpg
+            './assets/wild-columbine-5.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/red/aquilegia-canadensis-red-columbine_0423_130045.jpg
         ]
     }
 ];
-
 const plantMap = {
     "Alum": "Alum Root",
     "Bee": "Bee Balm",
