@@ -1,0 +1,25 @@
+Here are the plants:
+
+Lead Plant (2)
+Swamp Milkweed (2)
+Shrubby St. John’s Wort (2)
+Wild Columbine (5)
+Alum Root (3)
+Virginia Mountain Mint (3)
+New England Aster (2)
+Rough Blazing Star (2)
+Bee Balm (2)
+Carex Brevior (3)
+Three-awned Grass (3)
+Carex Sparganoides (3)
+Purple love grass (3)
+Lance leaf coreopsis (3)
+
+
+Here is the 5x8 grid layout:
+
+<empty> Alum Alum Purple Aster Columbine CarexS <empty>
+Lance Alum Lead 3 Bee CarexB Wort Lance
+Columbine 3 Rough Swamp Swap Rough CarexS Columbine
+CarexS Wort CarexB Bee 3 Lead Mint Purple
+Lance Purple Columbine Aster CarexB Mint Mint Columbine
