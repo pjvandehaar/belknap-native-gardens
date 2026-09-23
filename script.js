@@ -47,6 +47,7 @@ const plants = [
         scientificName: "Coreopsis lanceolata",
         otherNames: ['Sand Coreopsis'],
         height: "1-2 ft",
+        bloomTime: "May-July",
         gallery: [
             './assets/lance-leaf-coreopsis-1.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165358.jpg
             './assets/lance-leaf-coreopsis-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/yellow/coreopsis-lanceolata-lance-leaved-tickseed_0613_165211.jpg
@@ -68,6 +69,7 @@ const plants = [
         name: "New England Aster",
         scientificName: "Symphyotrichum novae-angliae",
         height: "3-6 ft",
+        bloomTime: "Aug-Oct",
         gallery: [
             './assets/new-england-aster-1.png', // https://mainenativeplants.org/wp-content/uploads/2020/04/New-England-Aster-Symphyotrichum-novae-angliae.png
             './assets/new-england-aster-2.jpg', // https://www.canr.msu.edu/contentAsset/image/d5b7d646-3ad0-44f6-a192-3e8f1b174592/fileAsset/filter/Resize/resize_w/1200
@@ -94,6 +96,7 @@ const plants = [
         name: "Rough Blazing Star",
         scientificName: "Liatris aspera",
         height: "3-5 ft",
+        bloomTime: "Sept",
         gallery: [
             './assets/rough-blazing-star-1.jpg', // https://www.canr.msu.edu/contentAsset/image/80bcf670-e8de-4c17-8716-e69cc6afd224/fileAsset/filter/Resize/resize_w/1200
             './assets/rough-blazing-star-2.jpg', // https://www.minnesotawildflowers.info/udata/r9ndp23q/purple/rough-blazing-star-0728_085557.jpg
@@ -287,7 +290,7 @@ function renderGrid() {
                 cell.style.justifyContent = 'center';
 
                 const btn = document.createElement('button');
-                btn.textContent = "Switch View";
+                btn.textContent = (viewMode==='garden') ? "Show 14 Plants" : "Show Planted Layout";
                 btn.className = "switch-view-btn";
                 btn.onclick = () => {
                     viewMode = viewMode === 'garden' ? 'list' : 'garden';

@@ -1,7 +1,7 @@
 :root {
     --grid-cols: 8;
-    --grid-rows: 5;
-    --bg-color: #1a1a1a;
+    --grid-rows:5;
+    --bg-color: gray;
     --text-color: #f0f0f0;
     --cell-bg: #2d2d2d;
     --cell-hover: #3d3d3d;
