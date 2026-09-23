@@ -170,39 +170,40 @@ const plants = [
         ]
     }
 ];
-const plantMap = {
-    "Alum": "Alum Root",
-    "Bee": "Bee Balm",
-    "CarexB": "Carex Brevior",
-    "CarexS": "Carex Sparganoides",
-    "Lance": "Lance leaf coreopsis",
-    "Lead": "Lead Plant",
-    "Aster": "New England Aster",
-    "Purple": "Purple love grass",
-    "Rough": "Rough Blazing Star",
-    "Shrubby": "Shrubby St. John’s Wort",
-    "Wort": "Shrubby St. John’s Wort",
-    "Swamp": "Swamp Milkweed",
-    "3": "Three-awned Grass",
-    "Mint": "Virginia Mountain Mint",
-    "Columbine": "Wild Columbine",
-    "<empty>": null
+const gardenLayout = {
+    "nameAbbreviations": {
+        "Alum": "Alum Root",
+        "Bee": "Bee Balm",
+        "CarexB": "Carex Brevior",
+        "CarexS": "Carex Sparganoides",
+        "Lance": "Lance leaf coreopsis",
+        "Lead": "Lead Plant",
+        "Aster": "New England Aster",
+        "Purple": "Purple love grass",
+        "Rough": "Rough Blazing Star",
+        "Shrubby": "Shrubby St. John’s Wort",
+        "Wort": "Shrubby St. John’s Wort",
+        "Swamp": "Swamp Milkweed",
+        "3": "Three-awned Grass",
+        "Mint": "Virginia Mountain Mint",
+        "Columbine": "Wild Columbine",
+        "<empty>": null
+    },
+    // 5 rows, 8 columns (Landscape Layout)
+    rows: [
+        ["<switch-view>", "Alum", "Alum", "Purple", "Aster", "Columbine", "CarexS", "<empty>"],
+        ["Lance", "Alum", "Lead", "3", "Bee", "CarexB", "Shrubby", "Lance"],
+        ["Columbine", "3", "Rough", "Swamp", "Swamp", "Rough", "CarexS", "Columbine"],
+        ["CarexS", "Wort", "CarexB", "Bee", "3", "Lead", "Mint", "Purple"],
+        ["Lance", "Purple", "Columbine", "Aster", "CarexB", "Mint", "Mint", "Columbine"]
+    ]
 };
-
-// 5 rows, 8 columns (Landscape Layout)
-const rawLayout = [
-    ["<switch-view>", "Alum", "Alum", "Purple", "Aster", "Columbine", "CarexS", "<empty>"],
-    ["Lance", "Alum", "Lead", "3", "Bee", "CarexB", "Shrubby", "Lance"],
-    ["Columbine", "3", "Rough", "Swamp", "Swamp", "Rough", "CarexS", "Columbine"],
-    ["CarexS", "Wort", "CarexB", "Bee", "3", "Lead", "Mint", "Purple"],
-    ["Lance", "Purple", "Columbine", "Aster", "CarexB", "Mint", "Mint", "Columbine"]
-];
 
 // Generate Alphabetical Layout (4x4)
 function getAlphabeticalLayout() {
     const sortedPlants = [...plants].sort((a, b) => a.name.localeCompare(b.name));
     const sortedKeys = sortedPlants.map(p => {
-        return Object.keys(plantMap).find(key => plantMap[key] === p.name);
+        return Object.keys(gardenLayout.nameAbbreviations).find(key => gardenLayout.nameAbbreviations[key] === p.name);
     }).filter(key => key); // Filter out any undefined keys if mapping fails
 
     const layout = [];
@@ -242,7 +243,7 @@ const rotationAlert = document.getElementById('rotationAlert');
 
 function getPlantData(shortName) {
     if (!shortName || shortName === "<empty>" || shortName === "<switch-view>") return null;
-    const fullName = plantMap[shortName];
+    const fullName = gardenLayout.nameAbbreviations[shortName];
     return plants.find(p => p.name === fullName);
 }
 
@@ -264,7 +265,7 @@ function renderGrid() {
 
     let layout;
     if (viewMode === 'garden') {
-        layout = isLandscape ? rawLayout : transpose(rawLayout);
+        layout = isLandscape ? gardenLayout.rows : transpose(gardenLayout.rows);
     } else {
         layout = alphabeticalLayout;
     }
